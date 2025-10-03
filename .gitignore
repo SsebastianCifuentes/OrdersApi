@@ -1,0 +1,20 @@
+# Compilación
+bin/
+obj/
+TestResults/
+*.dll
+*.exe
+*.log
+
+# Configuración de IDEs
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Paquetes NuGet
+packages/
+*.nupkg
+
+# Configuración local
+appsettings.Development.json
