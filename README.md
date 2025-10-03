@@ -1,6 +1,6 @@
 # OrdersApi
 
-API REST para la gestión de órdenes de compra y productos, desarrollada en ASP.NET Core (.NET 7+) con Entity Framework Core y SQLite.
+API REST para la gestión de órdenes de compra y productos, desarrollada en ASP.NET Core (.NET 9) con Entity Framework Core y SQLite.
 
 ## Características
 
@@ -14,14 +14,14 @@ API REST para la gestión de órdenes de compra y productos, desarrollada en ASP
 
 ## Requisitos
 
-- [.NET 7 SDK o superior](https://dotnet.microsoft.com/download)
-- [SQLite](https://www.sqlite.org/download.html) (opcional, la base se crea automáticamente)
+- [.NET 9 SDK]
+- [SQLite]
 
 ## Instalación
 
 1. Clona el repositorio:
    ```sh
-   git clone https://github.com/tuusuario/OrdersApi.git
+   git clone https://github.com/SsebastianCifuentes/OrdersApi.git
    cd OrdersApi
    ```
 
@@ -42,7 +42,7 @@ API REST para la gestión de órdenes de compra y productos, desarrollada en ASP
 
 5. Accede a la documentación Swagger en:
    ```
-   https://localhost:5001/swagger
+   https://localhost:5296/swagger
    ```
 
 ## Endpoints principales
@@ -57,14 +57,7 @@ API REST para la gestión de órdenes de compra y productos, desarrollada en ASP
 
 ## Notas
 
-- El proyecto usa SQLite por simplicidad, pero puedes cambiar a SQL Server LocalDB en `Program.cs` y `appsettings.json` si lo prefieres.
+- El proyecto usa SQLite por simplicidad, pero se puede cambiar a SQL Server LocalDB en `Program.cs` y `appsettings.json` si se prefiere.
 - Swagger está habilitado en entorno de desarrollo.
 
-## Pruebas
-
-Puedes usar [Postman](https://www.postman.com/) o la interfaz Swagger para probar los endpoints.
-
----
-
-**Autor:** Tu Nombre  
-**Licencia:** MIT
+**Autor:** Sebastian Cifuentes
