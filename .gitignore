@@ -18,3 +18,4 @@ packages/
 
 # Configuración local
 appsettings.Development.json
+orders.db
